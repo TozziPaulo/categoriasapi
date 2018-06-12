@@ -1,0 +1,22 @@
+{
+  "name": "cidades-service",
+  "version": "1.0.0",
+  "description": "api bussolaurbana.com ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index.test | tap-spec"
+  },
+  "author": "paulo tozzi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "mongodb": "^3.0.10",
+    "morgan": "^1.9.0",
+    "supertest": "^3.1.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
